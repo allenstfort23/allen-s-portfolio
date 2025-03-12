@@ -7,6 +7,7 @@ const skills = [
   { name: "MongoDB", icon: "🍃" },
   { name: "Bootstrap", icon: "📦" },
 ];
+
 const projects = [
   {
     title: "FloodFlow",
@@ -40,13 +41,17 @@ const Home = () => {
       </div>
 
       {/* Skills Section */}
-      <div className="container py-5">
-        <h2 className="text-center mb-4">Tech Stack</h2>
-        <div className="d-flex justify-content-center gap-4">
+      <div className="container py-5 text-center">
+        <h2 className="mb-4">Tech Stack</h2>
+        <div className="row justify-content-center">
           {skills.map((skill, index) => (
-            <div key={index} className="p-3 border rounded text-center">
-              <span className="fs-2">{skill.icon}</span>
-              <p className="mt-2">{skill.name}</p>
+            <div
+              key={index}
+              className="col-6 col-sm-4 col-md-2 text-center p-3">
+              <div className="p-3 border rounded">
+                <span className="fs-2">{skill.icon}</span>
+                <p className="mt-2">{skill.name}</p>
+              </div>
             </div>
           ))}
         </div>
@@ -57,7 +62,7 @@ const Home = () => {
         <h2 className="text-center mb-4">Recent Projects</h2>
         <div className="row">
           {projects.map((project, index) => (
-            <div key={index} className="col-md-6 mb-4">
+            <div key={index} className="col-12 col-md-6 mb-4">
               <div className="card bg-secondary text-white">
                 <div className="card-body">
                   <h4 className="card-title">{project.title}</h4>
