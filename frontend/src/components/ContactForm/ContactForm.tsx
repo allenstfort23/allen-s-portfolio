@@ -1,9 +1,9 @@
 import { useState } from "react";
-import * as React from "react";
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
     fullName: "",
+    company: "",
     email: "",
     phone: "",
     consent: false,
@@ -13,14 +13,15 @@ const ContactForm = () => {
     const { name, value, type, checked } = e.target;
     setFormData({
       ...formData,
-      [name]: type == "checkbox" ? checked : value,
+      [name]: type === "checkbox" ? checked : value,
     });
   };
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    console.log("Form Submitted: ", formData);
+    console.log("Form Submitted:", formData);
   };
+
   return (
     <div className="d-flex justify-content-center align-items-center vh-100 bg-dark text-white">
       <div
