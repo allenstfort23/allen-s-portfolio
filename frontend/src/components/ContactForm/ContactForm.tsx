@@ -87,18 +87,6 @@ const ContactForm = () => {
           </div>
 
           {/* Checkbox */}
-          <div className="mb-3 form-check">
-            <input
-              type="checkbox"
-              className="form-check-input"
-              name="consent"
-              checked={formData.consent}
-              onChange={handleChange}
-            />
-            <label className="form-check-label">
-              I agree to the privacy policy
-            </label>
-          </div>
 
           {/* Submit Button */}
           <button type="submit" className="btn btn-primary w-100">
