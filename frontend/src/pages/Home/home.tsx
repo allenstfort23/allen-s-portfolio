@@ -278,7 +278,7 @@ const Home = () => {
         <p className="mb-0">
           © {new Date().getFullYear()} Allen St Fort •{" "}
           <a
-            href="https://www.linkedin.com/in/allen-st-fort"
+            href="https://www.linkedin.com/in/allenstfort/"
             className="text-secondary"
             target="_blank"
             rel="noreferrer"

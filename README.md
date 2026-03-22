@@ -4,7 +4,7 @@ A full-stack personal portfolio built with React, TypeScript, and Node.js — sh
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel-black?style=for-the-badge&logo=vercel)](https://allen-s-portfolio.vercel.app)
 [![GitHub](https://img.shields.io/badge/GitHub-allenstfort23-181717?style=for-the-badge&logo=github)](https://github.com/allenstfort23)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Allen%20St%20Fort-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/allen-st-fort)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Allen%20St%20Fort-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/allenstfort)
 
 ---
 
@@ -102,5 +102,5 @@ The production `VITE_API_URL` should point to your Railway backend URL and is se
 
 **Allen St Fort** — allenstfort1@gmail.com
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/allen-st-fort)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/allenstfort/)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat&logo=github)](https://github.com/allenstfort23)
