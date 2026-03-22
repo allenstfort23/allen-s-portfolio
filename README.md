@@ -26,7 +26,8 @@ A full-stack personal portfolio built with React, TypeScript, and Node.js — sh
 
 **Deployment**
 
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white)
+![Vercel](https://img.shields.io/badge/Frontend-Vercel-000000?style=flat&logo=vercel&logoColor=white)
+![Railway](https://img.shields.io/badge/Backend-Railway-0B0D0E?style=flat&logo=railway&logoColor=white)
 
 ---
 
@@ -89,8 +90,11 @@ The frontend runs at `http://localhost:5173` and the backend at `http://localhos
 Create `frontend/.env`:
 
 ```env
-VITE_API_URL=http://localhost:3001
+VITE_API_URL=http://localhost:3001   # local
+# VITE_API_URL=https://your-app.up.railway.app  # production (set in Vercel dashboard)
 ```
+
+The production `VITE_API_URL` should point to your Railway backend URL and is set as an environment variable in the Vercel dashboard.
 
 ---
 
