@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const About = () => {
   return (
     <div className="bg-dark text-white min-vh-100">
@@ -57,22 +59,22 @@ const About = () => {
 
             <div className="d-flex gap-3">
               <a
-                href="https://www.linkedin.com/in/allen-st-fort"
+                href="https://www.linkedin.com/in/allenstfort/"
                 target="_blank"
                 rel="noreferrer"
                 className="btn btn-outline-light">
                 LinkedIn
               </a>
               <a
-                href="https://github.com/allenstfort"
+                href="https://github.com/allenstfort23/allen-s-portfolio"
                 target="_blank"
                 rel="noreferrer"
                 className="btn btn-outline-light">
                 GitHub
               </a>
-              <a href="/contact-me" className="btn btn-primary">
+              <Link to="/contact-me" className="btn btn-primary">
                 Get in Touch
-              </a>
+                </Link>
             </div>
           </div>
         </div>
